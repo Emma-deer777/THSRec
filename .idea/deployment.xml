@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="s05" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="s04">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tongyuwu/MBHT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="s05">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tongyuwu/THSRec" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="s06">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tongyuwu/MBHT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="s07">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tongyuwu/MBHT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="s07-cp">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tongyuwu/MBHT-cp" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tongyuwu@192.168.126.81:25129 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tongyuwu/MBHT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tongyuwu@192.168.126.81:25725 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
