@@ -1,4 +1,4 @@
-## THSRec
+## THCSRec
 This is the implementation code of our paper **Cooperative Sequential Recommendation via Contrasting Transformer and Hypergraph Network**.
 
 ## Requirements
@@ -9,8 +9,8 @@ Run the following code to satisfy the requeiremnts by pip:
 
 ## Run the model
 
-`python run_THSRec.py --model='THSRec' --dataset='retail_beh' --beta='0.00008' `, where 'value' means the default value.
+`python run_THCSRec.py --model='THCSRec' --dataset='retail_beh' --beta='0.00008' `, where 'value' means the default value.
 
 ## Tips
-- The model code is at `recbole/model/sequential_recommender/thsrec.py`
-- The key parameters is at `THSRec.yaml`
+- The model code is at `recbole/model/sequential_recommender/thcsrec.py`
+- The key parameters is at `THCSRec.yaml`

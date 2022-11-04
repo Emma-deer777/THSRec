@@ -15,10 +15,10 @@ def sim(z1: torch.Tensor, z2: torch.Tensor):
     return torch.matmul(z1, z2.permute(0, 2, 1))
 
 
-class THSRec(SequentialRecommender):
+class THCSRec(SequentialRecommender):
 
     def __init__(self, config, dataset):
-        super(THSRec, self).__init__(config, dataset)
+        super(THCSRec, self).__init__(config, dataset)
 
         # load parameters info
         self.n_layers = config['n_layers']

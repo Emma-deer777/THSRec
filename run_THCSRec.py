@@ -4,13 +4,13 @@ import os
 from recbole.config import Config
 from recbole.data import create_dataset
 from recbole.data.utils import get_dataloader, create_samplers
-from recbole.model.sequential_recommender.thsrec import THSRec
+from recbole.model.sequential_recommender.thcsrec import THCSRec
 from recbole.utils import init_logger, init_seed, get_model, get_trainer, set_color
 
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', '-m', type=str, default='THSRec', help='Model for sequence recommendation.')
+    parser.add_argument('--model', '-m', type=str, default='THCSRec', help='Model for sequence recommendation.')
     parser.add_argument('--dataset', '-d', type=str, default='tmall_beh', help='Benchmarks for sequence recommendation.')
     parser.add_argument('--validation', action='store_true',
                         help='Whether evaluating on validation set (split from train set), otherwise on test set.')
@@ -53,7 +53,7 @@ if __name__ == '__main__':
     if args.dataset == "retail_beh":
         config_dict['hyper_len'] = 10
 
-    config = Config(model="THSRec", dataset=f'{args.dataset}', config_dict=config_dict)
+    config = Config(model="THCSRec", dataset=f'{args.dataset}', config_dict=config_dict)
     # config['device']="cpu"
     init_seed(config['seed'], config['reproducibility'])
 
