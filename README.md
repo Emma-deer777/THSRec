@@ -1,5 +1,5 @@
 ## THCSRec
-This is the implementation code of our paper **Cooperative Sequential Recommendation via Contrasting Transformer and Hypergraph Network**.
+This is the implementation code of our paper **Contrasting Transformer and Hypergraph Network for Cooperative Sequential Recommendation**.
 
 ## Requirements
 The code is built on Pytorch and the [RecBole](https://github.com/RUCAIBox/RecBole) benchmark library. 
